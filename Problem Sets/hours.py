@@ -33,5 +33,3 @@ hrs_passed = input("How many hours will pass? ")
 new_hr = (int(current_hr) + int(hrs_passed)) % 12 
 
 print(f"In {hrs_passed} hours it will be {new_hr} o' clock")
-
-

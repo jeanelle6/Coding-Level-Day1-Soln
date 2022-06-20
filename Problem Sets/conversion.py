@@ -51,5 +51,3 @@ total_hrs = int(hrs) + int(minutes) / 60
 
 print(f"Hours: {total_hrs}")
 
-
-
