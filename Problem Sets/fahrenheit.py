@@ -40,3 +40,29 @@ Your Mission:
 
 
 # Code goes below 
+
+# Get user input for degrees (in Celsius) and convert to Fahrenheit 
+c = int(input("C: "))
+f = ((c * 9) / 5) + 32
+
+print(f"F: {f}")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -24,4 +24,20 @@ Your Mission:
 """ 
 
 # Code goes below 
+import random
+
+# Calculate number using random module 
+number = random.randint(1, 100) 
+
+# Get user input for guess; if guess is too high or low, continue to prompt user until correct 
+while True:
+    guess = int(input("Guess the number: ")) 
+
+    if guess < number: 
+        print("Too low!")
+    elif guess > number: 
+        print("Too high!")
+    else:
+        print("You got it")
+        break
 
